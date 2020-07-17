@@ -1,0 +1,19 @@
+Jason VU - 7/16/2020
+TestInventory UML Diagram - Objects and Methods:
+
+- itemName: String
+- sku: int
+- price: double
+- quantity: int
++ TestInventory()
++ TestInventory(itemName: String, sku: int, price: double, quantity: int)
+
++ getTotalValue(quantity: int): double
++ display(): String
++ getName(): String
++ setName(itemName: string): void
++ getSku(): int
++ setSku(sku: int): void
++ getPrice(): double
++ setPrice(price: double): void
++ static variable nItems: TestInventory uses InventoryItems
