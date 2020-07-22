@@ -1,0 +1,357 @@
+CN;Shanghai;14608512
+AR;Buenos Aires;13076300
+AB;Too few
+IN;Mumbai;12691836
+MX;Mexico city;12294193
+PK;Karachi;11624219
+TR;Istanbul;11174257
+IN;Delhi;10927986
+CD;Too many;1056382;extra
+PH;Manila;10444527
+RU;Moscow;10381222
+BD;Dhaka;10356500
+KR;Seoul;10349312
+BR;Sao Paulo;10021295
+EF;Bad number;one million
+NG;Lagos;9000000
+ID;Jakarta;8540121
+JP;Tokyo;8336599
+CN;Zhumadian;8263100
+US;New York City (NY);8175133
+TW;Taipei;7871900
+CD;Kinshasa;7785965
+PE;Lima;7737002
+EG;Cairo;7734614
+CO;Bogota;7674366
+GB;London;7556900
+GB;City of London;7556900
+CN;Beijing;7480601
+IR;Tehran;7153309
+CN;Nanchong;7150000
+HK;Hong Kong;7012738
+PK;Lahore;6310888
+BR;Rio de Janeiro;6023699
+IQ;Baghdad;5672513
+CN;Tai'an;5499000
+TH;Bangkok;5104476
+IN;Bangalore;5104047
+RU;Saint Petersburg;5028000
+CN;Yueyang;5000000
+CL;Santiago;4837295
+CN;Kaifeng;4800000
+IN;Kolkata;4631392
+AU;Sydney;4627345
+CA;Toronto;4612191
+MM;Rangoon;4477638
+IN;Chennai;4328063
+AU;Melbourne;4246375
+SA;Riyadh;4205961
+CN;Wuhan;4184206
+CN;Chongqing;3967028
+CN;Chengdu;3950437
+BD;Chittagong;3920222
+EG;Alexandria;3811516
+US;Los Angeles (CA);3792621
+CN;Tianjin;3766207
+IN;Ahmedabad;3719710
+KR;Busan;3678555
+CI;Abidjan;3677115
+NG;Kano;3626068
+IN;Hyderabad;3597816
+CN;Puyang;3590000
+JP;Yokohama-shi;3574443
+NG;Ibadan;3565108
+SG;Singapore;3547809
+TR;Ankara;3517182
+CN;Shenyang;3512192
+CN;Tianshui;3500000
+VN;Ho Chi Minh (Saigon) City;3467331
+CN;Shiyan;3460000
+ZA;Cape Town;3433441
+DE;Berlin;3426354
+CA;Montreal;3268513
+ES;Madrid;3255944
+CN;Harbin;3229883
+CN;Xi'an;3225812
+KP;Pyongyang;3222000
+CN;Lanzhou;3200000
+CN;Guangzhou;3152825
+MA;Casablanca;3144909
+ZA;Durban;3120282
+CN;Nanjing;3087010
+AF;Kabul;3043532
+VE;Caracas;3000000
+CN;Shenzhen;3000000
+IN;Pune;2935744
+IN;Surat;2894504
+SA;Jeddah;2867446
+IN;Kanpur;2823249
+UA;Kiev;2797553
+AO;Luanda;2776168
+PH;Quezon City;2761720
+ET;Addis Ababa;2757729
+KE;Nairobi;2750547
+CN;Taiyuan;2722475
+BR;Salvador;2711840
+IN;Jaipur;2711758
+TZ;Dar Es Salaam;2698652
+US;Chicago (IL);2695598
+KR;Incheon;2628000
+CN;Yunfu;2612800
+IQ;Al Basrah;2600000
+IN;Navi Mumbai;2600000
+JP;Osaka-shi;2592413
+SO;Mogadishu;2587183
+KR;Daegu;2566540
+IT;Rome;2563241
+CN;Changchun;2537421
+PK;Faisalabad;2506595
+TR;Izmir;2500603
+CN;Zhongshan;2493400
+SN;Dakar;2476400
+IN;Lucknow;2472011
+EG;Al Jizah;2443203
+BR;Fortaleza;2400000
+CO;Cali;2392877
+ID;Surabaya;2374658
+BR;Belo Horizonte;2373224
+SN;Grand Dakar;2352057
+IR;Mashhad;2307177
+US;Brooklyn (NY);2300664
+US;Borough of Queens (NY);2272771
+IN;Nagpur;2228018
+VE;Maracaibo;2225000
+IN;Raigarh Fort;2207929
+BR;Brasilia;2207718
+DO;Santo Domingo;2201941
+JP;Nagoya-shi;2191279
+AU;Brisbane;2189878
+CU;Havana;2163824
+FR;Paris;2138551
+US;Houston (TX);2099451
+CN;Changsha;2073938
+CN;Jinan;2069266
+IQ;Al Mawsil Al Jadidah;2065597
+CN;Dalian;2035307
+ZA;Johannesburg;2026469
+HK;Kowloon;2019533
+IQ;Al Basrat Al Qadimah;2015483
+CN;Zhengzhou;2014125
+KZ;Almaty;2000900
+CO;Medellin;1999979
+CN;Shijiazhuang;1992474
+UZ;Tashkent;1978028
+DZ;Algiers;1977663
+SD;Khartoum;1974647
+GH;Accra;1963264
+EC;Guayaquil;1952029
+CN;Ordos;1940653
+YE;Sanaa;1937451
+LB;Beirut;1916100
+AU;Perth;1896548
+JP;Sapporo;1883027
+CN;Jilin;1881977
+CN;Hangzhou;1878129
+RO;Bucharest;1877155
+CN;Nanchang;1871351
+GN;Camayenne;1871242
+CA;Vancouver;1837969
+IN;Indore;1837041
+MX;Iztapalapa;1820888
+MX;Ecatepec;1806226
+GN;Conakry;1767200
+VE;Maracay;1754256
+ID;Medan;1750971
+PK;Rawalpindi;1743101
+BY;Minsk;1742124
+HU;Budapest;1741041
+IQ;Mosul;1739800
+DE;Hamburg;1739117
+BR;Curitiba;1718421
+PL;Warsaw;1702139
+ID;Bandung;1699719
+ZA;Soweto;1695047
+AT;Vienna;1691468
+MA;Rabat;1655753
+CN;Qingdao;1642245
+MX;Guadalajara;1640589
+ES;Barcelona;1621537
+ZA;Pretoria;1619438
+SY;Aleppo;1602264
+IN;Patna;1599920
+IN;Bhopal;1599914
+BR;Manaus;1598210
+CN;Tangshan;1596949
+CN;Xinyang;1590668
+MX;Puebla de Zaragoza;1590256
+NG;Kaduna;1582102
+KH;Phnom penh;1573544
+SY;Damascus;1569394
+IR;Esfahan;1547164
+IN;Ludhiana;1545368
+ZW;Harare;1542813
+JP;Kobe-shi;1528478
+US;Philadelphia (PA);1526006
+ID;Bekasi;1520119
+TW;Kaohsiung;1519711
+MX;Ciudad Juarez;1512354
+CN;Ueruemqi;1508225
+US;Manhattan (NY);1487536
+PY;Asuncion;1482200
+BR;Recife;1478098
+KR;Daejeon;1475221
+GH;Kumasi;1468609
+MY;Kota Bharu;1459994
+JP;Kyoto;1459640
+MY;Kuala lumpur;1453975
+IR;Karaj;1448075
+US;Phoenix (AZ);1445632
+NP;Kathmandu;1442271
+ID;Palembang;1441500
+PK;Multan;1437230
+VN;Hanoi;1431270
+UA;Kharkiv;1430885
+IN;Agra;1430055
+AR;Cordoba;1428214
+IR;Tabriz;1424641
+RU;Novosibirsk;1419007
+KR;Gwangju;1416938
+TR;Bursa;1412701
+IN;Vadodara;1409476
+BR;Belem;1407737
+CN;Fushun;1400646
+EC;Quito;1399814
+JP;Fukuoka-shi;1392289
+MG;Antananarivo;1391433
+CN;Luoyang;1390581
+CN;Hefei;1388904
+PK;Hyderabad;1386330
+US;Borough of Bronx (NY);1385108
+VE;Valencia;1385083
+PK;Gujranwala;1384471
+CO;Barranquilla;1380425
+CN;Guankou;1380000
+MX;Tijuana;1376457
+CD;Lubumbashi;1373770
+BR;Porto Alegre;1372741
+ID;Tangerang;1372124
+BO;Santa Cruz de la Sierra;1364389
+CN;Handan;1358318
+UG;Kampala;1353189
+RU;Yekaterinburg;1349772
+CN;Suzhou;1343091
+BD;Khulna;1342339
+CM;Douala;1338082
+CN;Shantou;1333973
+US;San Antonio (TX);1327407
+IN;Gorakhpur;1324570
+SA;Mecca;1323624
+ID;Makassar;1321717
+US;San Diego (CA);1307402
+JP;Kawasaki;1306785
+IT;Milano;1306661
+ID;South Tangerang;1303569
+CN;Baotou;1301768
+SA;Medina;1300000
+CM;Yaounde;1299369
+ML;Bamako;1297281
+IN;Nasik;1289497
+ID;Semarang;1288084
+CG;Brazzaville;1284609
+IN;Pimpri;1284606
+RU;Nizhniy Novgorod;1284164
+JO;Amman;1275857
+PH;Budta;1273715
+RS;Belgrade;1273651
+UY;Montevideo;1270737
+ZM;Lusaka;1267440
+IN;Kalyan;1262255
+IN;Thane;1261517
+DE;Muenchen;1260391
+SE;Stockholm;1253309
+LB;Ra's Bayrut;1251739
+IR;Shiraz;1249942
+TR;Adana;1248988
+KR;Suigen;1242724
+HT;Port-au-Prince;1234742
+MX;Ciudad Nezahualcoyotl;1232220
+AU;Adelaide;1225235
+IN;Meerut;1223184
+IN;Faridabad;1220229
+PK;Peshawar;1218773
+PH;Davao;1212504
+MM;Mandalay;1208099
+SD;Omdurman;1200000
+DO;Santiago de los Caballeros;1200000
+CN;Anshan;1199275
+CN;Tongshan;1199193
+IN;Ghaziabad;1199191
+ID;Depok;1198129
+US;Dallas (TX);1197816
+JP;Saitama;1193350
+MX;Gustavo A. Madero;1193161
+IN;Dombivli;1193000
+MZ;Maputo;1191613
+CN;Fuzhou;1179720
+IN;Rajkot;1177362
+AR;Rosario;1173533
+CN;Guiyang;1171633
+BR;Goiania;1171195
+BR;Guarulhos;1169577
+CZ;Prague;1165581
+IN;Varanasi;1164404
+DK;Copenhagen;1153615
+BG;Sofia;1152556
+LY;Tripoli;1150989
+NG;Port Harcourt;1148665
+JP;Hiroshima-shi;1143841
+CN;Dayan;1137600
+AE;Dubai;1137347
+RU;Samara;1134730
+RU;Omsk;1129281
+NG;Benin City;1125058
+MX;Monterrey;1122874
+PH;Malingao;1121974
+AZ;Baku;1116513
+MX;Leon;1114626
+NG;Maiduguri;1112449
+CN;Wuxi;1108647
+RU;Kazan;1104738
+AM;Yerevan;1093485
+IN;Amritsar;1092450
+BF;Ouagadougou;1086505
+JP;Yono;1077730
+RU;Rostov-na-Donu;1074482
+IN;Allahabad;1073438
+KR;Goyang;1073069
+TR;Gaziantep;1065975
+IN;Vishakhapatnam;1063178
+JP;Sendai;1063103
+RU;Chelyabinsk;1062919
+CN;Datong;1052678
+GE;Tbilisi;1049498
+CN;Changshu city;1047700
+TW;Taichung;1040725
+JP;Sendai-shi;1037562
+IN;Teni;1034724
+CN;Xianyang;1034081
+RU;Ufa;1033338
+UA;Dnipropetrovsk;1032822
+KR;Seongnam;1031935
+BR;Campinas;1031554
+IN;Jabalpur;1030168
+IN;Haora;1027672
+CN;Huainan;1027655
+UA;Donets'k;1024700
+IE;Dublin;1024027
+CN;Kunming;1023674
+CA;Calgary;1019942
+BE;Brussels;1019022
+IN;Aurangabad;1016441
+RU;Volgograd;1011417
+BR;Nova Iguacu;1002118
+CN;Jieyang;1001985
+UA;Odessa;1001558
+IN;Shivaji Nagar;1000000
+ID;Masjid Jamie Baitul Muttaqien;1000000
+CN;Zhu Cheng City;1000000
