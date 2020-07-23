@@ -1,6 +1,5 @@
 # EVC_Summer2020_COMSC075
 
-<<<<<<< HEAD
 ```This course is an introduction to computer science using an object-oriented programming language. Students will write computer programs that include control structures, iteration, methods and argument passing, and classes. Problem solving, documentation, programming style, and program design and development are addressed throughout the course. (C-ID COMP 122)```
 
 ## Week 2 Topics:
@@ -54,6 +53,3 @@ Book: Chapter [12](https://github.com/jasonanhvu/EVC_Summer2020_COMSC075/tree/ma
 
 - Exception handling
 - Files and Text Input/Output
-=======
-```This course is an introduction to computer science using an object-oriented programming language. Students will write computer programs that include control structures, iteration, methods and argument passing, and classes. Problem solving, documentation, programming style, and program design and development are addressed throughout the course. (C-ID COMP 122)```
->>>>>>> 798fc66... UPDATED
