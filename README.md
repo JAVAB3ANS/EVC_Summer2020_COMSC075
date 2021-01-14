@@ -53,3 +53,6 @@ Book: Chapter [12](https://github.com/jasonanhvu/EVC_Summer2020_COMSC075/tree/ma
 
 - Exception handling
 - Files and Text Input/Output
+
+## License: 
+- MIT @ 2021 
