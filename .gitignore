@@ -1,0 +1,5 @@
+classes/src
+classes/book_programs
+*.class
+.git/
+.vscode/
