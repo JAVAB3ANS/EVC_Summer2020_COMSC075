@@ -3,7 +3,7 @@
 ```This course is an introduction to computer science using an object-oriented programming language. Students will write computer programs that include control structures, iteration, methods and argument passing, and classes. Problem solving, documentation, programming style, and program design and development are addressed throughout the course. (C-ID COMP 122)```
 
 ## Week 2 Topics:
-Book: Chapters [4](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_4), [5](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_5),  and [6](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_6)
+Book: Chapters [4](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_4), [5](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_5),  and [6](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_6)
 
 - Mathematical Functions
 - The `char` Data Type and `String`s
@@ -17,7 +17,7 @@ Book: Chapters [4](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/mast
 
 
 ## Week 3 Topics:
-Book: Chapters [7](https://github.com/jasonanhvu/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_7) and [8](https://github.com/jasonanhvu/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_8)
+Book: Chapters [7](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_7) and [8](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_8)
 
 - Copying Arrays
 - Passing Arrays to Methods
@@ -26,7 +26,7 @@ Book: Chapters [7](https://github.com/jasonanhvu/EVC_Summer2020_COMSC075/tree/ma
 - Multidimensional Arrays
 
 ## Week 4 Topics:
-Book: Chapters [9](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_9) and [10](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_10)
+Book: Chapters [9](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_9) and [10](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_10)
 
 - Introductions to Classes and Objects
 - Using Classes from the Java Library
@@ -40,7 +40,7 @@ Book: Chapters [9](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/mast
 - The `String` and `StringBuilder` Classes
 
 ## Week 5 Topics:
-Book: Chapter [11](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_11)
+Book: Chapter [11](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_11)
 
 - Inheritance
 - Overriding vs. Overloading
@@ -49,7 +49,7 @@ Book: Chapter [11](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/mast
 - The `ArrayList` Class
 
 ## Week 6 Topics:
-Book: Chapter [12](https://github.com/JAVA9620/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_12)
+Book: Chapter [12](https://github.com/JAVAB3ANS/EVC_Summer2020_COMSC075/tree/master/book_programs/Chapter_12)
 
 - Exception handling
 - Files and Text Input/Output
