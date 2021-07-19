@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3d7262e55324c2e6e87ac9fbc2d4374932b7f931c7a9eea186ae66394a19b4d2
-size 389
+package src;
+
+/*
+ * Age Table
+ * Jason Vu - 6/23/2020
+ * Long description
+ */
+
+public class AgeTable {
+	public static void main(String[] args) {
+		System.out.print("Years Days");
+		int years = 1;
+		while (years <= 10) {
+			int days = years * 365;
+			System.out.format("%2d	%5\n",years, days);
+			years++;
+		}
+		System.out.println("The end. OK, bye thanks!");
+	}
+}
+			

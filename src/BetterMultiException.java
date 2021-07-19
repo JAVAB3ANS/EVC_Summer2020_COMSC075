@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eedc60ce8ef10c76bcc601e0ff1194727dc601a92d9c740925e1f5ad67bfa40b
-size 929
+package src;
+
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class BetterMultiException {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Dividing numbers");
+
+        try {
+            System.out.print("Enter the dividend: ");
+            int dividend = input.nextInt();
+
+            System.out.print("Enter the divisor: ");
+            int divisor = input.nextInt();
+
+            if(divisor != 0) {
+                System.out.printf("Quotient: %d\n", dividend / divisor);
+                System.out.printf("Remainder: %d\n", dividend % divisor);
+            } else {
+                System.out.println("Sorry, you cannot divide by zero!");
+            }
+        } catch (InputMismatchException ex) {
+            System.out.println("Please use only digits!");
+        }
+        input.close();
+    }
+}

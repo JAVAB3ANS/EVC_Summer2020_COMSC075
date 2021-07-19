@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a06274ecc20ceefe0cf7e88960445192d1b21b3855f928b5b28732336cd7bce5
-size 664
+package src;
+
+import java.util.Scanner;
+
+public class WindChill {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter temperature in degrees Fahrenheit: ");
+        double temperature = input.nextDouble();
+        System.out.print("Enter wind velocity in miles per hour: ");
+        double velocity = input.nextDouble();
+        double formula = (35.74 + 0.6215 * temperature - 35.75 * Math.pow(0.15, velocity) + 0.4275 * temperature * Math.pow(0.16, velocity));
+        System.out.format("Your wind chill temperature is: %.2f \n", formula);
+
+        input.close();
+    }
+}

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:063508c0ecb822174aed6051f4b0f7063957cf7e0ee3fb5a02901091efb8572a
-size 846
+package src;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class BetterIndexControl {
+    public static void main(String[] args) {
+        String[] words = {"ant", "bee", "cat", "dog", "elk", "fox"};
+
+        Scanner input = new Scanner(System.in);
+        try {
+            System.out.print("Enter an index: ");
+            int index = input.nextInt();
+            if (index >= 0 && index < words.length) {
+                String result = words[index];
+                System.out.println("The word is " + result + ".");
+            } else {
+                System.out.println("Please use a number from 0 to " + (words.length - 1));
+            }
+        } catch (InputMismatchException ex) {
+            System.out.println("Please use digits only.");
+        }
+        input.close();
+    }
+}

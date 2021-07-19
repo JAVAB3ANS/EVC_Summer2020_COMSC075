@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f856a38b251a9f56ba681d2ba0b331986f60f58e662cc94a1bd4247c545c8bf0
-size 849
+/* Focal Length Calculator
+ * 1) obj - distance from lens to object being photographed
+ * 2) img - distance from lens to film
+ * Both of these will be measured in centimeters
+ * It'll calculate and display the focal length of the lens,
+ * calculated as (obj * img) divided by (obj + img)
+ */package src;
+
+import java.util.Scanner;
+
+public class FocalLength {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter distance from lens to object in cm: ");
+        double obj = input.nextInt();
+        System.out.print("Enter distance from lens to film in cm: ");
+        double img = input.nextInt();
+
+        double focalLength = (obj * img) / (obj + img);
+        System.out.printf("The focal length is %.2f\n", focalLength);
+        input.close();
+    }
+}

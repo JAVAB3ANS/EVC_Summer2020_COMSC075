@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ed4eb45d71acaba2d76dc26c08e2d538b41509b983bb16814f59377bd79bd956
-size 600
+package src;
+
+import java.util.Scanner;
+
+public class NestedLoops {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter number from 1-9, or 0 to quit: ");
+		int n = input.nextInt();
+		
+		while ( n != 0) {
+			for (int row = 1; row <= n; row++) {
+				for (int column = 1; column <= row; column++) {
+					System.out.print(column + " ");
+				}
+				System.out.println();
+			}
+			System.out.println();
+			System.out.print("Enter number from 1-9, or 0 to quit: ");
+			n = input.nextInt();
+		}
+		input.close();
+	}
+}
+
+		

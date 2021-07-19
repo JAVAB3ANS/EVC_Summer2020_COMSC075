@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebfe1616646a21825e257609f4762727b7caf2c65fc5ce299feabab7d4b64ade
-size 695
+package src;
+
+public class Overload {
+    public static int max(int a, int b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static double max(double a, double b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static int max(int a, int b, int c) {
+        int maxAB = max(a, b);
+        return max (maxAB, c);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(max(3, 4));
+        System.out.println(max(3.2, 2.1));
+        System.out.println(max(3, 4.7));
+        System.out.println(max(7, 10, 3));
+    }
+}

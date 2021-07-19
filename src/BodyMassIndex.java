@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:61cf45c64672d5c8760827429c71cfde34ab2f268817ec41c61c2e4fe349aaa6
-size 528
+package src;
+
+import java.util.Scanner; 
+
+public class BodyMassIndex {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input weight in kilograms: ");
+        double weight  = input.nextDouble();
+        System.out.println("Input height in meters: ");
+        double height = input.nextDouble();
+        double bmi = weight / (height * height);
+        System.out.println("Your BMI is " + bmi + " kg/m^2");
+        input.close();    
+    }
+}

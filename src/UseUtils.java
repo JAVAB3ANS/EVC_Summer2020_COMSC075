@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7cdea3f8e806d1d6c1ae04c465b153bb2c284760bf75f8fae503fe2d64f24989
-size 802
+/*
+ * Demonstrate use of exceptions in libraries
+ */
+
+package src;
+
+class ArrayUtils {
+    public static int max(int[] data) throws IllegalArgumentException {
+        if (data.length > 0) {
+            int maxVal = data[0];
+            for (int item: data) {
+                if (item > maxVal) {
+                    maxVal = item;
+                }
+            }
+            return (maxVal);
+        } else {
+            throw new IllegalArgumentException("Array length must be greater than zero!");
+        }
+    }
+}
+// --------------------------------------
+public class UseUtils {
+    public static void main(String[] args) {
+        int[] empty = new int[0];
+        int maximum = ArrayUtils.max(empty);
+        System.out.println("Maximum value is " + maximum);
+    }
+}

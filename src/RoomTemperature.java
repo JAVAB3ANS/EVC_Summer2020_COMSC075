@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8208958cd2be35e820c0e7aa73812e4759e793ff6d2669fd99d7b9580a9f08b9
-size 807
+package src;
+
+import java.util.Scanner;
+public class RoomTemperature {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the temperature in your room in \u00b0F: ");
+        int temperature = input.nextInt();
+        if (temperature < 55) {
+            System.out.println("You must be freezing.");
+        } else if (temperature < 65) {
+            System.out.println("That is a bit chilly.");
+        } else if (temperature < 75) {
+            System.out.println("That is a comfortable temperature.");
+        } else if (temperature < 85) {
+            System.out.println("That's a bit warm.");
+        } else {
+            System.out.println("That's too hot for me!");
+        }
+        input.close();
+    }
+}

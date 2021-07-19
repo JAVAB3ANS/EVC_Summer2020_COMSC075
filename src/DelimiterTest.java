@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bbd30b7574c7facaeed61674fe3cea9286a1b8d4551047c055b6fe853384f5a5
-size 721
+package src;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class DelimiterTest {
+    public static void main(String[] args) {
+        File censusFile = new File("./txt/states2019.csv");
+        try {
+            Scanner input = new Scanner(censusFile);
+            input.useDelimiter("[,\\n]");
+            while (input.hasNext()) {
+                String state = input.next();
+                int population = input.nextInt();
+                System.out.println(state + "/" + population);
+            }
+            input.close();  
+        } catch (FileNotFoundException ex) {
+            System.out.println("Could not open file!");
+        }
+    }
+}

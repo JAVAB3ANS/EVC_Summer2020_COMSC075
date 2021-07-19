@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41512284d305fcfb06c265bde0b5fa8a2801e437bfb838067bfed707e04de4d4
-size 245
+package src;
+
+public class Example2 {
+    public static void main(String[] args) {
+		int num = 17 / 4;
+		double x = 17 / 4;
+		double y = 17.0 / 4.0;
+
+		System.out.println(num);
+		System.out.println(x);
+		System.out.println(y);
+	}
+}

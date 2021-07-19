@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1256cfb8faa3cfd54d743541543d2edaf49a45632f8ed527658823b8c55d90de
-size 518
+package src;
+
+import java.util.Scanner;
+public class Price {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the quantity of the following item: ");
+        int quantity = input.nextInt();
+        System.out.print("Enter the price of the following item: ");
+        double price = input.nextDouble();
+        double total = quantity * price;
+        System.out.println("The total cost is $" + total);
+		input.close();
+    }
+}

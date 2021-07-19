@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00e9f1df847f1043d928f67ae987ced513d8911cefdc7425ed0f3a30ef3a243e
-size 848
+package src;
+
+public class GeometricObject {
+    private String color;
+    private boolean filled;
+
+    public GeometricObject() {
+        color = "white";
+        filled = false;
+    }
+
+    public GeometricObject(String color, boolean filled) {
+        this.color = color;
+        this.filled = filled;
+    }
+
+    public double getArea() {
+        return 0.0;
+    }
+
+    public double getPerimeter() {
+        return 0.0;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public boolean isFilled() {
+        return filled;
+    }
+
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
+
+    public String toString() {
+        return "Color: " + color + ", Filled: " + filled;
+    }
+}

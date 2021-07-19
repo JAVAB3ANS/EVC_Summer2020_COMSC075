@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:556461881af75811e67d02ff2d619e4f9788c3252355d6f000461b8f434fcbdf
-size 424
+/*
+ * Get information from an Exception object
+ */
+
+package src;
+
+public class ExceptionInfo {
+    public static void main(String[] args) {
+        try {
+            int[] arr = {100, 101, 102};
+            int invalid = arr[20];
+            System.out.println(invalid);
+        } catch(IndexOutOfBoundsException ex) {
+            //process exception here
+            ex.printStackTrace();
+        }
+    }
+}

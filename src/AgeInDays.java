@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:58730c9864cc3f25b3ad1a3efc354b57f0f21b5a70c4aae9e9897d5635036566
-size 850
+package src;
+
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class AgeInDays {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        boolean valid = false;
+        int years = 0;
+        while(!valid) {
+            System.out.print("How many years old are you?");
+            try {
+                years = input.nextInt();
+                if ( years > 0) {
+                    valid = true; 
+                } else {
+                    System.out.println("Age must be greater than zero!");
+                }
+            } catch (InputMismatchException ex) {
+                input.nextLine(); //clear out extraneous input
+                System.out.println("Please use only digits.");
+            }
+        }
+        input.close();
+    }
+}
