@@ -1,28 +1,3 @@
-package src;
-
-import java.util.Scanner;
-
-public class IfStatement {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		
-		System.out.print("Enter a number: ");
-		int n = input.nextInt();
-		
-		/*
-		 * An if (or else) statement can contain one, and ONLY one
-		 * statement in its body.
-		 * 
-		 * By using braces around multiple statements, those
-		 * multiple statements become one block statement. 
-		 */
-		 
-		 if (n % 2 == 0) {
-			System.out.println("This number is even.");
-			System.out.println("It is divisible by two.");
-			System.out.println("Its square root of is " + Math.sqrt(n));
-		 }
-		 System.out.println("Thank you for your input!");
-		 input.close();	
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf9da895e0544c90cd941a605e5697e6d6ea30def7e50b6bb96854b68c03d9f8
+size 735

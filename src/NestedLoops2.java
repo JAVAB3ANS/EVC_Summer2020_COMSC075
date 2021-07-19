@@ -1,25 +1,3 @@
-package src;
-
-import java.util.Scanner;
-
-public class NestedLoops2 {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		
-		System.out.print("Enter number from 1-9, or 0 to quit: ");
-		int n = input.nextInt();
-		
-		while ( n != 0) {
-			for (int row = 1; row <= n; row++) {
-				for (int column = 1; column <= row; column++) {
-					System.out.print(column + " ");
-				}
-				System.out.println();
-			}
-			System.out.println();
-			System.out.print("Enter number from 1-9, or 0 to quit: ");
-			n = input.nextInt();
-		}
-		input.close();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b383d97d31781b8d2cb07fc846ea81eac3a305b83457d611a52cc12d547647d3
+size 593
