@@ -29,9 +29,13 @@ public class Palindrome {
     }
 
     if (isPalindrome)
-      System.out.println(s + " is a palindrome");
+      {
+          System.out.println(s + " is a palindrome");
+      }
     else
-      System.out.println(s + " is not a palindrome");
+      {
+          System.out.println(s + " is not a palindrome");
+      }
 
       input.close();
   }
