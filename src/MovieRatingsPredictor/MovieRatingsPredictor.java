@@ -220,8 +220,10 @@ public class MovieRatingsPredictor {
                     wordValues[1] = 1;
                 }
                 else
-                    wordValues =
+                    {
+                        wordValues =
                         wordValue.get(cleanReviews.get(i).get(j));
+                    }
                     //From rating, adds to total and the number of entries
                     total += ((double) wordValues[0]) / wordValues[1];
                     numofEntries++;

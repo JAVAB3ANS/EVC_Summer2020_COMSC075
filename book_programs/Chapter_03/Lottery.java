@@ -24,7 +24,9 @@ public class Lottery {
 
     // Check the guess
     if (guess == lottery)
-      System.out.println("Exact match: you win $10,000");
+      {
+          System.out.println("Exact match: you win $10,000");
+      }
     else if (guessDigit2 == lotteryDigit1
           && guessDigit1 == lotteryDigit2)
       System.out.println("Match all digits: you win $3,000");

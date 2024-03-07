@@ -26,7 +26,9 @@ public class ComputeAndInterpretBMI {
     // Display result
     System.out.println("BMI is " + bmi);
     if (bmi < 18.5)
-      System.out.println("Underweight");
+      {
+          System.out.println("Underweight");
+      }
     else if (bmi < 25)
       System.out.println("Normal");
     else if (bmi < 30)
