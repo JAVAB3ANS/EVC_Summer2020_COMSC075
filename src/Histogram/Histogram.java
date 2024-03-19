@@ -1,11 +1,12 @@
 package src;
 
+import java.security.SecureRandom;
 import java.util.Scanner;
 import java.util.Random;
 
 public class Histogram {
     public static void main(String[] args) {
-        Random random = new Random();
+        Random random = new SecureRandom();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number of samples: ");
 

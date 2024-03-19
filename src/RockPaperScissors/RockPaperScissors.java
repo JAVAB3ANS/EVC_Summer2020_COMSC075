@@ -1,5 +1,6 @@
 package src;
 
+import java.security.SecureRandom;
 import java.util.Scanner;
 
 import java.util.Random;
@@ -7,7 +8,7 @@ import java.util.Random;
 public class RockPaperScissors {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Random random = new Random();
+        Random random = new SecureRandom();
 
         int computerPick = random.nextInt(3) + 1;
         String computerPlay = " ";
