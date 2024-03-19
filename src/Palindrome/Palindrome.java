@@ -17,7 +17,7 @@ public class Palindrome {
         System.out.print("Enter a string, or press ENTER to quit: ");
         String s = input.nextLine().trim();
         
-        while (!s.equals("")) {
+        while (!"".equals(s)) {
             // The index of the first character in the string
             int low = 0;
 

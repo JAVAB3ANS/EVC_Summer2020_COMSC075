@@ -190,7 +190,7 @@ public class CityInfo {
             while (!finished) {
                 System.out.print("Enter a county code, or press ENTER to quit: ");
                 String countryCode = input.nextLine();
-                if (!countryCode.equals("")) {
+                if (!"".equals(countryCode)) {
                     countryCode = countryCode.toUpperCase();
                     int nFound = statistics(countryCode, cityList);
                     if (nFound > 0) {

@@ -247,7 +247,7 @@ public class CourseInfo {
             while (!finished) {
                 System.out.print("Enter a subject name, or press ENTER to quit: ");
                 String subjectName = input.nextLine();
-                if (!subjectName.equals("")) {
+                if (!"".equals(subjectName)) {
                     subjectName = subjectName.toUpperCase();
                     int nFound = statistics(subjectName, courseList);
                     if (nFound > 0) {
