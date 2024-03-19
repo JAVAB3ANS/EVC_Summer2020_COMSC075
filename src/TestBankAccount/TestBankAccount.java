@@ -24,18 +24,18 @@ public class TestBankAccount {
 		while(loop) {
 			System.out.print("Do you want to deposit or withdraw money? [Type Deposit, Withdraw, Check Balance, or Quit]: ");
 			String input = scan.nextLine();
-			if(input.equals("Deposit")) {
+			if("Deposit".equals(input)) {
 				System.out.print("How much do you want to deposit: ");
 				double depositAmnt = scan.nextDouble();
 				account.deposit(depositAmnt);
-			} else if(input.equals("Withdraw")) {
+			} else if("Withdraw".equals(input)) {
 				System.out.print("How much do you want to withdraw: ");
 				double withdrawAmnt = scan.nextDouble();
 				account.withdraw(withdrawAmnt);
-			} else if(input.equals("Quit")) {
+			} else if("Quit".equals(input)) {
 				System.out.print("Thank you for banking with us!");
 				loop = false;
-			} else if(input.equals("Check Balance")) {
+			} else if("Check Balance".equals(input)) {
 				account.checkBalance();
 			} else {
 				System.out.print("Please try again.");

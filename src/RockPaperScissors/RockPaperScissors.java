@@ -55,27 +55,27 @@ public class RockPaperScissors {
         if (userPlay.equals(computerPlay)) {
             decision = "Tie!";
             result = decision;
-        } else if (userPlay.equals("rock")) {
-            if (computerPlay.equals("scissors")) {
+        } else if ("rock".equals(userPlay)) {
+            if ("scissors".equals(computerPlay)) {
                 decision = "You win!";
                 result = decision;
-            } else if (computerPlay.equals("paper")) {
+            } else if ("paper".equals(computerPlay)) {
                 decision = "Computer wins!";
                 result = decision;
             }
-        } else if (userPlay.equals("paper")) {
-            if (computerPlay.equals("scissors")) {
+        } else if ("paper".equals(userPlay)) {
+            if ("scissors".equals(computerPlay)) {
                 decision = "Computer wins!";
                 result = decision;
-            } else if (computerPlay.equals("rock")) {
+            } else if ("rock".equals(computerPlay)) {
                 decision = "You win!";
                 result = decision;
             }
-        } else if (userPlay.equals("scissors")) {
-            if (computerPlay.equals("paper")) {
+        } else if ("scissors".equals(userPlay)) {
+            if ("paper".equals(computerPlay)) {
                 decision = "You win!";
                 result = decision;
-            } else if (computerPlay.equals("rock")) {
+            } else if ("rock".equals(computerPlay)) {
                 decision = "Computer wins!";
                 result = decision;
             }

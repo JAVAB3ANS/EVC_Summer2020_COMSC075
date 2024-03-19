@@ -48,7 +48,7 @@ public class BinarySearch {
         System.out.print("Enter a country to look for, or ENTER to end: ");
         String lookFor = input.nextLine().trim().toUpperCase();
         
-        while (!lookFor.equals("")) { // empty string is my sentinel value
+        while (!"".equals(lookFor)) { // empty string is my sentinel value
             int foundAt = binarySearch(countries, lookFor);
             if (foundAt >= 0) { // tells whether I found it (>=0) or not (-1)
                 System.out.printf("We found it at index number %d\n", foundAt);
